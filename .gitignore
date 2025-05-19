@@ -1,2 +1,432 @@
-# Ignore all node_modules directories recursively
+# Created by https://www.toptal.com/developers/gitignore/api/angular,react,reactnative,csharp,c++,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=angular,react,reactnative,csharp,c++,python
+
+### Angular ###
+## Angular ##
+# compiled output
+**/dist/
+**/tmp/
+**/app/**/*.js
+**/app/**/*.js.map
+
+# dependencies
 **/node_modules/
+**/bower_components/
+
+# IDEs and editors
+**/.idea/
+
+# misc
+**/.sass-cache/
+**/connect.lock/
+**/coverage/
+**/libpeerconnection.log/
+**/npm-debug.log
+**/testem.log
+**/typings/
+**/.angular/
+
+# e2e
+**/e2e/*.js
+**/e2e/*.map
+
+# System Files
+**/.DS_Store/
+
+### C++ ###
+# Prerequisites
+**/*.d
+
+# Compiled Object files
+**/*.slo
+**/*.lo
+**/*.o
+**/*.obj
+
+# Precompiled Headers
+**/*.gch
+**/*.pch
+
+# Compiled Dynamic libraries
+**/*.so
+**/*.dylib
+**/*.dll
+
+# Fortran module files
+**/*.mod
+**/*.smod
+
+# Compiled Static libraries
+**/*.lai
+**/*.la
+**/*.a
+**/*.lib
+
+# Executables
+**/*.exe
+**/*.out
+**/*.app
+
+### Csharp ###
+# User-specific files
+**/*.rsuser
+**/*.suo
+**/*.user
+**/*.userosscache
+**/*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+**/*.userprefs
+
+# Mono auto generated files
+**/mono_crash.*
+
+# Build results
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+**/x64/
+**/x86/
+**/[Ww][Ii][Nn]32/
+**/[Aa][Rr][Mm]/
+**/[Aa][Rr][Mm]64/
+**/bld/
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]og/
+**/[Ll]ogs/
+
+# Visual Studio cache/options directory
+**/.vs/
+
+# MSTest test Results
+**/[Tt]est[Rr]esult*/
+**/[Bb]uild[Ll]og.*
+
+# NUnit
+**/*.VisualState.xml
+**/TestResult.xml
+**/nunit-*.xml
+
+# Build Results of an ATL Project
+**/[Dd]ebugPS/
+**/[Rr]eleasePS/
+**/dlldata.c
+
+# Benchmark Results
+**/BenchmarkDotNet.Artifacts/
+
+# .NET Core
+**/project.lock.json
+**/project.fragment.lock.json
+**/artifacts/
+
+# ASP.NET Scaffolding
+**/ScaffoldingReadMe.txt
+
+# StyleCop
+**/StyleCopReport.xml
+
+# Files built by Visual Studio
+**/*_i.c
+**/*_p.c
+**/*_h.h
+**/*.ilk
+**/*.meta
+**/*.iobj
+**/*.pdb
+**/*.ipdb
+**/*.pgc
+**/*.pgd
+**/*.rsp
+**/*.sbr
+**/*.tlb
+**/*.tli
+**/*.tlh
+**/*.tmp
+**/*.tmp_proj
+**/*_wpftmp.csproj
+**/*.log
+**/*.tlog
+**/*.vspscc
+**/*.vssscc
+**/*.builds
+**/*.pidb
+**/*.svclog
+**/*.scc
+
+# Chutzpah Test files
+**/_Chutzpah*
+
+# Visual C++ cache files
+**/ipch/
+**/*.aps
+**/*.ncb
+**/*.opendb
+**/*.opensdf
+**/*.sdf
+**/*.cachefile
+**/*.VC.db
+**/*.VC.VC.opendb
+
+# Visual Studio profiler
+**/*.psess
+**/*.vsp
+**/*.vspx
+**/*.sap
+
+# Visual Studio Trace Files
+**/*.e2e
+
+# TFS 2012 Local Workspace
+**/$tf/
+
+# Guidance Automation Toolkit
+**/*.gpState
+
+# ReSharper
+**/_ReSharper*/
+**/*.[Rr]e[Ss]harper
+**/*.DotSettings.user
+
+# TeamCity
+**/_TeamCity*
+
+# DotCover
+**/*.dotCover
+
+# AxoCover
+**/.axoCover/*
+!**/.axoCover/settings.json
+
+# Coverlet
+**/coverage*.json
+**/coverage*.xml
+**/coverage*.info
+
+# Visual Studio code coverage results
+**/*.coverage
+**/*.coveragexml
+
+# NCrunch
+**/_NCrunch_*
+**/.*crunch*.local.xml
+**/nCrunchTemp_*
+
+# MightyMoose
+**/*.mm.*
+**/AutoTest.Net/
+
+# Web workbench (sass)
+
+# Installshield output folder
+**/[Ee]xpress/
+
+# DocProject
+**/DocProject/buildhelp/
+**/DocProject/Help/*.HxT
+**/DocProject/Help/*.HxC
+**/DocProject/Help/*.hhc
+**/DocProject/Help/*.hhk
+**/DocProject/Help/*.hhp
+**/DocProject/Help/Html2
+**/DocProject/Help/html
+
+# Click-Once directory
+**/publish/
+
+# Publish Web Output
+**/*.[Pp]ublish.xml
+**/*.azurePubxml
+**/*.pubxml
+**/*.publishproj
+
+# Microsoft Azure Web App publish settings
+**/PublishScripts/
+
+# NuGet Packages
+**/*.nupkg
+**/*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Microsoft Azure Build Output
+**/csx/
+**/*.build.csdef
+
+# Microsoft Azure Emulator
+**/ecf/
+**/rcf/
+
+# Windows Store app package directories and files
+**/AppPackages/
+**/BundleArtifacts/
+**/Package.StoreAssociation.xml
+**/_pkginfo.txt
+**/*.appx
+**/*.appxbundle
+**/*.appxupload
+
+# Visual Studio cache files
+**/*.[Cc]ache
+!?**/*.[Cc]ache/
+
+# Others
+**/ClientBin/
+**/~$*
+**/*~
+**/*.dbmdl
+**/*.dbproj.schemaview
+**/*.jfm
+**/*.pfx
+**/*.publishsettings
+**/orleans.codegen.cs
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*.py,cover
+**/.pytest_cache/
+**/.tox/
+**/.nox/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.pyre/
+**/.pytype/
+**/cython_debug/
+**/.ipynb_checkpoints/
+**/profile_default/
+**/ipython_config.py
+**/.python-version
+**/.pdm.toml
+**/celerybeat-schedule
+**/celerybeat.pid
+**/*.sage.py
+**/.ropeproject
+**/.spyderproject
+**/.spyproject
+**/.pybuilder/
+**/target/
+**/docs/_build/
+**/instance/
+**/.webassets-cache
+**/.scrapy
+**/htmlcov/
+**/cover/
+**/nosetests.xml
+**/coverage.xml
+**/MANIFEST
+**/*.egg-info/
+**/*.egg
+**/.eggs/
+**/develop-eggs/
+**/downloads/
+**/wheels/
+**/share/python-wheels/
+**/build/
+**/sdist/
+**/var/
+**/parts/
+**/lib/
+**/lib64/
+**/.Python
+**/pip-log.txt
+**/pip-delete-this-directory.txt
+**/*.manifest
+**/*.spec
+**/local_settings.py
+**/db.sqlite3
+**/db.sqlite3-journal
+
+# React
+**/.DS_*
+**/logs
+**/*.backup.*
+**/*.back.*
+**/*.sublime*
+**/psd
+**/thumb
+**/sketch
+
+# ReactNative
+**/.expo
+**/__generated__
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/lerna-debug.log*
+**/.pnpm-debug.log*
+**/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+**/pids
+**/*.pid
+**/*.seed
+**/*.pid.lock
+**/lib-cov
+**/coverage
+**/*.lcov
+**/.nyc_output
+**/.grunt
+**/.lock-wscript
+**/build/Release
+**/jspm_packages/
+**/web_modules/
+**/*.tsbuildinfo
+**/.npm
+**/.eslintcache
+**/.stylelintcache
+**/.rpt2_cache/
+**/.rts2_cache_cjs/
+**/.rts2_cache_es/
+**/.rts2_cache_umd/
+**/.node_repl_history
+**/*.tgz
+**/.yarn-integrity
+**/.parcel-cache
+**/.next
+**/out
+**/.nuxt
+**/dist
+**/.cache/
+**/.vuepress/dist
+**/.temp
+**/.docusaurus
+**/.serverless/
+**/.fusebox/
+**/.dynamodb/
+**/.tern-port
+**/.vscode-test
+**/.yarn/cache
+**/.yarn/unplugged
+**/.yarn/build-state.yml
+**/.yarn/install-state.gz
+**/.pnp.*
+**/.gradle/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+**/*.apk
+**/output.json
+**/*.iml
+**/misc.xml
+**/deploymentTargetDropDown.xml
+**/render.experimental.xml
+**/*.jks
+**/*.keystore
+**/google-services.json
+**/*.hprof
+**/xcuserdata/
+**/*.xcscmblueprint
+**/*.xccheckout
+**/buck-out/
+**/.buckconfig.local
+**/.buckd/
+**/.buckversion
+**/.fakebuckversion
+**/.gradletasknamecache
+**/.project
+**/.classpath
+**/.fuse_hidden*
+**/.directory
+**/.Trash-*
+**/.nfs*
